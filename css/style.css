@@ -1,0 +1,16 @@
+.bg-dark {
+    background-color: black !important;
+}
+
+.bg-secondary {
+    background-color: #031717 !important;
+}
+.magnify {
+    width: 10%;
+    display: none;
+}
+
+.mag-div:hover + .magnify {
+    display: block;
+  }
+
