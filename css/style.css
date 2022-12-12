@@ -14,12 +14,44 @@ body {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
 }
 
+a {
+    color: #EC4E20;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #EC4E20;
+    font-weight: 600;
+    text-decoration: solid underline #EC4E20 1px !important;
+}
+
 .bg-dark {
     background-color: black !important;
 }
 
+.bg-primary {
+    background-color: #353531 !important;
+}
+
 .bg-secondary {
     background-color: #031717 !important;
+}
+
+.bg-success {
+    background-color: #EC4E20 !important
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #EC4E20;
+    border-color: #EC4E20;
+}
+
+.btn-primary:hover {
+    color: #EC4E20;
+    background-color: #ec502000;
+    border-color: #EC4E20;
+    text-decoration: none !important;
 }
 
 /* Maginfying glass hover effect */
@@ -33,7 +65,7 @@ body {
     display: block;
   }
 
-/* Swap featured card with more suitable card when viewed on mobile */
+/* Swap featured card with more suitable card when viewed on mobile 
 
 #ch-mobile {
     display: none;
@@ -48,4 +80,4 @@ body {
         display: flex;
     }
     
-}
+}*/
