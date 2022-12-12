@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
-  <body>
+  <body class="bg-dark">
     <!-- main logo / nav -->
     <header>
       <nav id="nav-bar-anchors" class="navbar navbar-dark bg-secondary">
@@ -34,33 +34,66 @@
       </nav>
     </header>
     <!-- About Section -->
-    <section id="about">
-      <div >
-        <div class="jumbotron container row align-items-center mx-auto">
-          <div class="col-md-9 col-sm-12">
-            <h1 class="display-4">About Me</h1>
-            <p class="lead">Hi, I'm Seamus, a freelance web designer.</p>
-            <hr class="my-3" />
-            <p>
-              I create attractive and interactive websites to show off the best
-              of your business or organisation.
-            </p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
-          <div class="col-md-3">
-            <img src="./images/seamus.jpg" class="img-fluid" />
-          </div>
+    <section id="about" class="bg-dark container-fluid">
+        <div class="row p-5 d-flex justify-content-center align-items-center">
+            <div class="jumbotron container row align-items-center mx-auto col-md-8 col-lg-8 col-sm-12">
+                <div class="col-md-9 col-sm-12">
+                    <h2 class="display-2">About Me</h2>
+                    <p class="lead">Hi, I'm Seamus, a freelance web designer.</p>
+                    <hr class="my-3" />
+                    <p>
+                    I create attractive and interactive websites to show off the best
+                    of your business or organisation.
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/seamus.jpg" class="img-fluid" />
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h2 class="display-2 text-white">Skills</h2>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Responsive Web Design
+                        <div>
+                            <span class="badge badge-primary badge-pill">HTML</span>
+                            <span class="badge badge-danger badge-pill">CSS</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Bespoke Website Functionalities
+                        <div>
+                            <span class="badge badge-success badge-pill">JS</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        CMS Design (Wordpress)
+                        <div>
+                            <span class="badge badge-primary badge-pill">HTML</span>
+                            <span class="badge badge-danger badge-pill">CSS</span>
+                            <span class="badge badge-success badge-pill">JS</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Graphic & Brand Design
+                        <div>
+                            <span class="badge badge-info badge-pill">Adobe Suite</span>
+                        </div>
+                    </li>
+              </ul>
+            </div>
         </div>
-      </div>
     </section>
-        <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
     <section id="portfolio" class="bg-dark p-4 container-fluid ">
+        <h2 class="display-2 text-light d-flex justify-content-center">Work</h2>
         <!--Featured Card-->
         <div class="m-4 justify-items-center align-items-center justify-content-center">
             <div class="row">
                 <!--Desktop Featured Card-->
                 <div class="card col-13 text-white m-3" id="ch-desktop">
-                    <img src="./images/the-court-house-xl.jpg" class="card-img img-fluid featured-image-top" alt="The Court House website">
+                    <a href="https://courthousebangor.com/" target="_blank"> <img src="./images/the-court-house-xl.jpg" class="card-img img-fluid featured-image-top" alt="The Court House website"></a>
                     <div class="card-img-overlay d-flex justify-content-end flex-column p-5">
                         <h3 class="card-title">The Court House</h3>
                         <p class="card-text">Events based website with calendar</p>

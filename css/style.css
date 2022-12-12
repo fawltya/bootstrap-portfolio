@@ -1,3 +1,5 @@
+/* Fonts & Colours */ 
+
 h1,
 h2,
 h3,
@@ -19,6 +21,9 @@ body {
 .bg-secondary {
     background-color: #031717 !important;
 }
+
+/* Maginfying glass hover effect */
+
 .magnify {
     width: 10%;
     display: none;
@@ -28,7 +33,7 @@ body {
     display: block;
   }
 
-
+/* Swap featured card with more suitable card when viewed on mobile */
 
 #ch-mobile {
     display: none;
