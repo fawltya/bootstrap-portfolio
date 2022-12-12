@@ -54,23 +54,47 @@
       </div>
     </section>
         <!-- Portfolio Section -->
-    <section id="portfolio" class="bg-dark p-4 container-fluid">
+    <section id="portfolio" class="bg-dark p-4 container-fluid ">
         <!--Featured Card-->
         <div class="m-4 justify-items-center align-items-center justify-content-center">
             <div class="row">
-                <div class="card col text-white m-3">
-                    <img src="./images/the-court-house.jpg" class="card-img" alt="The Court House website">
-                    <div class="card-img-overlay">
-                    <h5 class="card-title">The Court House</h5>
-                    <p class="card-text">Events based website with calendar</p>
-                    <a href="https://courthousebangor.com/" target="_blank" class="card-link">Website Link</a>
+                <!--Desktop Featured Card-->
+                <div class="card col-13 text-white m-3" id="ch-desktop">
+                    <img src="./images/the-court-house-xl.jpg" class="card-img img-fluid featured-image-top" alt="The Court House website">
+                    <div class="card-img-overlay d-flex justify-content-end flex-column p-5">
+                        <h3 class="card-title">The Court House</h3>
+                        <p class="card-text">Events based website with calendar</p>
+                        <a href="https://courthousebangor.com/" target="_blank" class="card-link">Website Link</a>
                     </div>
                 </div>
             </div>
             <!--Row 1-->
-            <div class="row justify-items-center align-items-center justify-content-center item">  
+            <div class="row justify-items-center align-items-center justify-content-center card-deck d-flex">  
+                 <!--Mobile Featured Card-->
+                 <div class="card col-sm-12 bg-secondary p-3 m-lg-2 text-light" id="ch-mobile">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://courthousebangor.com/" class= mag-div data-toggle="modal" data-target=".lightbox-ch"><img src="./images/the-court-house.jpg" class="card-img-top" alt="The Court House Website"></a>
+                        <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
+                    </div>
+                    <div class="modal fade lightbox-ch">
+                        <div class="modal-dialog modal-xl" role="document">
+                          <div class="modal-content">
+                            <img src="/images/the-court-house-xl.jpg" alt="The Court House Website">
+                            <a href="https://courthousebangor.com/" target="_blank" class="text-center bg-secondary p-4 text-light text-uppercase">The Court House</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card-body pl-0">
+                    <h4 class="card-title">The Court House</h4>
+                    <p class="card-text">Events based website with calendar</p>
+                    </div>
+                    <ul class="list-group list-group-flush d-flex flex-row justify-items-center align-items-center justify-content-between">
+                        <li class="list-group-item bg-primary">Website, Branding</li>
+                        <li class="list-group-item bg-primary bg-success"><a href="https://courthousebangor.com/" target="_blank" class="card-link text-white">Website Link</a></li>
+                    </ul>
+                </div>
                 <!--RIED Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-6 col-xl-4 col-sm-12 bg-secondary p-3 m-lg-2 text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://riedesign.org/" class= mag-div data-toggle="modal" data-target=".lightbox-ried"><img src="./images/ried.jpg" class="card-img-top" alt="Re-Imagining Engineering Design Website"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -80,7 +104,6 @@
                           <div class="modal-content">
                             <img src="./images/ried-l.jpg" alt="Re-Imagining Engineering Design Website">
                             <a href="https://riedesign.org/" target="_blank" class="text-center bg-secondary p-4 text-light text-uppercase">Re-Imagining Engineering Design Website</a>
-
                           </div>
                         </div>
                     </div>
@@ -88,13 +111,13 @@
                     <h4 class="card-title">Re-Imagining Engineering Design</h4>
                     <p class="card-text">University led engineering research project</p>
                     </div>
-                        <ul class="list-group list-group-flush d-flex flex-row justify-items-center align-items-center justify-content-between">
+                    <ul class="list-group list-group-flush d-flex flex-row justify-items-center align-items-center justify-content-between">
                         <li class="list-group-item bg-primary">Website & Branding</li>
                         <li class="list-group-item bg-primary bg-success"><a href="https://riedesign.org/" target="_blank" class="card-link text-white">Website Link</a></li>
-                        </ul>
+                    </ul>
                 </div>
                 <!--The Guillemot Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-6 col-xl-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://www.theguillemot.com/" class= mag-div data-toggle="modal" data-target=".lightbox-guillemot"><img src="./images/the-guillemot.jpg" class="card-img-top" alt="The Guillemot"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -117,7 +140,7 @@
                         </ul>
                 </div>
                 <!--The Mary Ann McCracken Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://maryannmccrackenfoundation.org/" class= mag-div data-toggle="modal" data-target=".lightbox-mam"><img src="./images/mary-ann-mccracken.jpg" class="card-img-top" alt="Mary Ann McCracken Foundation"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -142,9 +165,9 @@
 
             </div>
             <!--Row 2-->
-            <div class="row justify-items-center align-items-center justify-content-center item">  
+            <div class="row justify-items-center align-items-center justify-content-center card-group">  
                 <!--Morning Glory Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://morninggloryco.uk/" class= mag-div data-toggle="modal" data-target=".lightbox-morning-glory"><img src="./images/morning-glory.jpg" class="card-img-top" alt="Morning Glory Website"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -167,7 +190,7 @@
                     </ul>
                 </div>
                 <!--Great Place Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://greatplacenorthbelfast.com/" class= mag-div data-toggle="modal" data-target=".lightbox-gpnb"><img src="./images/great-place.jpg" class="card-img-top" alt="Great Place North Belfast"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -190,7 +213,7 @@
                     </ul>
                 </div>
                 <!--Open House Festival Website-->
-                <div class="card col-md-4 col-lg-3 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://openhousefestival.com/" class= mag-div data-toggle="modal" data-target=".lightbox-ohf"><img src="./images/open-house-festival.jpg" class="card-img-top" alt="Open House Festival"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
