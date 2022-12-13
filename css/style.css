@@ -1,5 +1,4 @@
 /* Fonts & Colours */ 
-
 h1,
 h2,
 h3,
@@ -14,6 +13,7 @@ body {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
 }
 
+/* Links */
 a {
     color: #EC4E20;
     font-weight: 600;
@@ -26,7 +26,6 @@ a:hover {
 }
 
 /* Background colours */
-
 .bg-dark {
     background-color: black !important;
 }
@@ -46,11 +45,9 @@ a:hover {
 .bg-success:hover {
     background-color: #EC4E20 !important;
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1), 0 0 20px 0 rgba(255, 255, 255, 0.07) !important;
-
 }
 
 /* Button style and hover effects */
-
 .btn-primary {
     color: #fff;
     background-color: #EC4E20;
@@ -66,7 +63,6 @@ a:hover {
 }
 
 /* Maginfying glass hover effect */
-
 .magnify {
     width: 10%;
     display: none;
