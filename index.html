@@ -248,7 +248,7 @@
                     </ul>
                 </div>
                 <!--Open House Festival Website-->
-                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2  text-light">
+                <div class="card col-md-6 col-lg-4 col-sm-12 bg-secondary p-3 m-lg-2 text-light">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="https://openhousefestival.com/" class= mag-div data-toggle="modal" data-target=".lightbox-ohf"><img src="./images/open-house-festival.jpg" class="card-img-top" alt="Open House Festival"></a>
                         <img src="./images/magnifying-glass-solid.svg" class="magnify position-absolute ">
@@ -275,17 +275,96 @@
         </div>
     </section>
     <!--Contact Section-->
-    <section>
-
+    <section id="contact">
+        <div class="text-center mt-5">
+            <h2 class="display-2 text-light">Contact</h1> 
+        </div>
+        <div class="row ">
+            <div class="col-lg-7 mx-auto mb-4">
+                <div class="card mt-2 mx-auto p-4 bg-secondary">
+                    <div class="card-body bg-secondary">     
+                        <div class = "container">
+                            <form id="contact-form" role="form">
+                                <div class="controls text-light">
+                                    <div class="row ">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_name">First Name *</label>
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="First name" required="required" data-error="Firstname is required.">
+                                    
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_lastname ">Last Name</label>
+                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_email">Email *</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="name@domain.com" required="required" data-error="Valid email is required.">
+                                    
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="form_need">What's the reason for getting in touch?</label>
+                                                <select id="form_need" name="need" class="form-control">
+                                                    <option value="" selected disabled>--</option>
+                                                    <option>I'd like to request a callback</option>
+                                                    <option>I'd like some more examples of your work</option>
+                                                    <option>Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">Message *</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                        <input type="submit" class="btn btn-primary btn-send pt-2 btn-block shadow" value="Send Message" >      
+                                        </div>
+                
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <!-- /.8 -->
+            </div>
+        <!-- /.row-->
+        </div>   
     </section>
     <!--Footer Section-->
-    <footer>
-        <div class="social-media">
-            <ul class="list-inline">
-            <li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+    <footer class="container-fluid py-3 px-5">
+        <div class="row d-flex justify-content-between align-items-center flex-row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="text-white">
+                    <p>Website built with ❤️ by Seamus</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="social-media">
+                    <ul class="list-inline d-flex flex-row justify-content-center align-items-center">
+                    <li><a href="#" title=""><i class="fa fa-facebook p-2 footer-icon"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-twitter p-2 footer-icon"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-linkedin p-2 footer-icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12 d-flex text-align-right justify-content-end">
+                <div>
+                    <a href="mailto:seamus@designbarn.co.uk">seamus@designbarn.co.uk</a>
+                </div>
+            </div>
         </div>
     </footer>
     

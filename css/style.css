@@ -38,7 +38,13 @@ a:hover {
 }
 
 .bg-success {
-    background-color: #EC4E20 !important
+    background-color: #EC4E20 !important;
+}
+
+.bg-success:hover {
+    background-color: #EC4E20 !important;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1), 0 0 20px 0 rgba(255, 255, 255, 0.07) !important;
+
 }
 
 .btn-primary {
@@ -52,6 +58,7 @@ a:hover {
     background-color: #ec502000;
     border-color: #EC4E20;
     text-decoration: none !important;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2), 0 0 20px 0 rgba(255, 255, 255, 0.19) !important;
 }
 
 /* Maginfying glass hover effect */
@@ -64,6 +71,12 @@ a:hover {
 .mag-div:hover + .magnify {
     display: block;
   }
+
+.footer-icon:hover {
+    border: 3px solid;
+    border-radius: 20px
+}
+
 
 /* Swap featured card with more suitable card when viewed on mobile 
 
