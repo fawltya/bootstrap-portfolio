@@ -25,6 +25,8 @@ a:hover {
     text-decoration: solid underline #EC4E20 1px !important;
 }
 
+/* Background colours */
+
 .bg-dark {
     background-color: black !important;
 }
@@ -46,6 +48,8 @@ a:hover {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1), 0 0 20px 0 rgba(255, 255, 255, 0.07) !important;
 
 }
+
+/* Button style and hover effects */
 
 .btn-primary {
     color: #fff;
@@ -76,21 +80,3 @@ a:hover {
     border: 3px solid;
     border-radius: 20px
 }
-
-
-/* Swap featured card with more suitable card when viewed on mobile 
-
-#ch-mobile {
-    display: none;
-}
-
-@media (max-width: 577px) { 
-    #ch-desktop {
-        display: none;
-    }
-    
-    #ch-mobile {
-        display: flex;
-    }
-    
-}*/
