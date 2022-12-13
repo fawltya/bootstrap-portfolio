@@ -76,7 +76,14 @@ a:hover {
     display: block;
   }
 
+/* Footer icon hover circles */ 
 .footer-icon:hover {
     border: 3px solid;
     border-radius: 20px
+}
+
+/* Skills list items hover effect */
+.list-group-item:hover {
+    background-color: #031717;
+    color: white
 }
