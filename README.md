@@ -8,6 +8,15 @@ Re-designing this webpage introduced me to the speed and flexibility of building
 
 The modal popup was interesting to make and is a great solution for giving the user the option to see the card images in a more zoomed in view.
 
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+  * [Portfolio Cards](#portfolio-cards)
+  * [Contact Form](#contact-form)
+  * [Navigation Bar](#navigation-bar)
+* [License](#license)
+
 ## Installation
 
 To view the website visit [fawltya.github.io/bootstrap-portfolio](https://fawltya.github.io/bootstrap-portfolio)
